@@ -38,4 +38,8 @@ export const routes: Routes = [
     path: 'archive',
     loadComponent: () => import('./archive/archive.page').then((m) => m.ArchivePage),
   },
+  {
+    path: 'feeding-list',
+    loadComponent: () => import('./feeding-list/feeding-list.page').then((m) => m.FeedingListPage),
+  },
 ];
